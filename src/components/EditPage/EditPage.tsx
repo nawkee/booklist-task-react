@@ -5,8 +5,8 @@ import { Book } from "../../types/types";
 
 interface CustomProps {
   book: Book;
-  editBook: (data: Book) => any;
-  addBook: (data: Book) => any;
+  editBook: (data: Book) => void;
+  addBook: (data: Book) => void;
 }
 
 const EditPage: React.FC<CustomProps> = (props) => {

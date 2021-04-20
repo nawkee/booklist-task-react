@@ -4,8 +4,8 @@ import { Book } from "../../types/types";
 
 interface CustomProps {
   books: [Book];
-  deleteBook: (id: number) => any;
-  openEdit: (id: number) => any;
+  deleteBook: (id: number) => void;
+  openEdit: (id: number) => void;
 }
 
 const Dashboard: React.FC<CustomProps> = (props) => {
