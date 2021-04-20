@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "isbn": "9781593275846",
+      "title": "Eloquent JavaScript, Second Edition",
+      "author": "Marijn Haverbeke",
+      "category": "Programming"
+    },
+    {
+      "id": 2,
+      "isbn": "9781449331818",
+      "title": "Learning JavaScript Design Patterns",
+      "author": "Addy Osmani",
+      "category": "Programming"
+    },
+    {
+      "id": 3,
+      "isbn": "9781449365035",
+      "title": "Speaking JavaScript",
+      "author": "Axel Rauschmayer",
+      "category": "Programming"
+    },
+    {
+      "id": 4,
+      "isbn": "9781491950296",
+      "title": "Programming JavaScript Applications",
+      "author": "Eric Elliott",
+      "category": "Programming"
+    },
+    {
+      "id": 5,
+      "title": "Understanding ECMAScript 6",
+      "author": "Nicholas C. Zakas",
+      "isbn": "9781593277574",
+      "category": "Programming"
+    },
+    {
+      "id": 7,
+      "title": "STAS",
+      "author": "STAS",
+      "isbn": "STAS",
+      "category": "Programming"
+    },
+    {
+      "id": 9,
+      "title": "TESTTASF",
+      "author": "TESTASF",
+      "isbn": "TEStASF",
+      "category": "Programming"
+    },
+    {
+      "id": 8,
+      "title": "newBook2",
+      "author": "newBook2",
+      "isbn": "newBook2",
+      "category": "Programming"
+    }
+  ]
+}

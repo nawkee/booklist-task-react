@@ -1,0 +1,102 @@
+.dashboard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .title {
+    color: #fff;
+    font-size: 4rem;
+    margin: 25px 0;
+  }
+
+  .table {
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 14px;
+
+    thead tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+    }
+
+    th,
+    td {
+      padding: 12px 15px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    tbody {
+      tr {
+        &:nth-of-type(even) {
+          background-color: #709fb0;
+        }
+
+        &:nth-of-type(odd) {
+          background-color: #a7c5eb;
+        }
+
+        &:last-of-type {
+          border-bottom: 2px solid #009879;
+        }
+      }
+    }
+
+    .delete-btn {
+      background-color: darkred;
+    }
+
+    .edit-btn {
+      background-color: #009879;
+      transition: background-color .3s;
+    }
+  }
+
+  .btn {
+    border: none;
+    color: #fff;
+    padding: 5px;
+    margin: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .add-book {
+    background-color: #009879;
+    color: #fff;
+    margin: 10px 0 20px;
+    width: 150px;
+    padding: 15px 0;
+    font-size: 20px;
+    transition: background-color .3s;
+  }
+
+  .edit-btn:hover, .add-book:hover {
+    background-color: darkgreen;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .dashboard {
+    .title {
+      font-size: 2rem;
+    }
+
+    .table {
+      width: 100%;
+      font-size: 12px;
+
+      .buttons {
+        flex-direction: column;
+      }
+    }
+  }
+}
